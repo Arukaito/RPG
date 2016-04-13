@@ -10,8 +10,8 @@ namespace Engine
 
     {
         public int ID { get; set; }
-        public int Name { get; set; }
-        public int NamePrural { get; set; }
+        public String Name { get; set; }
+        public String NamePrural { get; set; }
 
     }
 }

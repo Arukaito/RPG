@@ -19,6 +19,11 @@ namespace SA
         {
             InitializeComponent();
 
+
+            Location location = new Location();
+        Location.ID = 1;
+        Location.name = "Home";
+
             _player = new Player();
 
             _player.CurrentHitPoints = 10;
